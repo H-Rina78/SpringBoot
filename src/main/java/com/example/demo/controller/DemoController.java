@@ -36,7 +36,7 @@ public String checkSentiment() {
      ObjectNode documentNode = mapper.createObjectNode();
      documentNode.put("id", "1");
      documentNode.put("language", "ja");
-     documentNode.put("text", "やっぱり楽しくないかもa Java");
+     documentNode.put("text", "やっぱり楽しくないかも Java");
      // Add the document node to the documents array
      analysisInputNode.putArray("documents").add(documentNode);
      String jsonString =null;
